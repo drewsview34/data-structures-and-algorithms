@@ -1,12 +1,13 @@
 ﻿using System;
 
-namespace ConsoleApp1
+namespace insertShiftArrayMidIndex
 {
     class Program
     {
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+            Console.ReadLine();
         }
     }
 }
