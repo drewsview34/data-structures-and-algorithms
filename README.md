@@ -11,6 +11,7 @@ Insert and shift middle index of array
 Actual Time to complete: 2 Hours White Board / 3 Hours Coding
 
 - White board partner: Ray Johnson
+- Collaborator: Dez Teague
 
 ### Challenge
 For Code Challenge 02, I must write a method called insertShiftArray which takes in an array and the value to be added. Without utilizing any of the built-in methods available to C# language, return an array with the new value added at the middle index.
