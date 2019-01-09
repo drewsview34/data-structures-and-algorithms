@@ -13,4 +13,4 @@ For Code Challenge 02, I must write a function called insertShiftArray which tak
 
 Successful Output
 
-![Code Challenge 02](https://github.com/drewsview34/data-structures-and-algorithms/blob/master/assets/codeChallengeTwo.jpg)
+![White Board 02](https://github.com/drewsview34/data-structures-and-algorithms/blob/master/assets/codeChallengeTwo.jpg)
