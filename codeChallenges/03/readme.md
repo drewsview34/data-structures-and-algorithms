@@ -1,5 +1,9 @@
 ## Code Challenge 03
 
+Developer: Andrew Hinojosa
+
+Contributor: Deziree Teague
+
 Binary Search In A Sorted 1D Array
 
 Actual Time to complete: 2 Hours White Board / 4 Hours Coding
