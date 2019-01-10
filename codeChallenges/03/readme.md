@@ -18,4 +18,4 @@ For Code Challenge 03, Write a function called BinarySearch which takes in 2 par
 The approach taken was to create an array. Then, find the middle of the array and use a for loop to run through the array in the direction towards the search key. Once found, return the index position. If not found, return -1.
 
 ### Solution
-![White Board 03](https://github.com/drewsview34/data-structures-and-algorithms/blob/master/assets/codeChallengeTwo.jpg)
+![White Board 03](https://github.com/drewsview34/data-structures-and-algorithms/blob/master/assets/codeChallengeThree.jpg)
