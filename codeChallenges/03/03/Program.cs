@@ -14,22 +14,22 @@ namespace _03
         public static int BinarySearch(int[] sortedArray, int searchKey)
         {
             //these variables will be used in conditional 
-            int min = 0;
-            int max = sortedArray.Length - 1;
+            int arrayMin = 0;
+            int arrayMax = sortedArray.Length - 1;
 
             //loop through the binary array until the integer is hit OR reach end of array
-            while(min <= max)
+            while (arrayMin <= arrayMax)
             {
-                int midpoint = (min + max) / 2;
+                int midpoint = (arrayMin + arrayMax) / 2;
                 //if the integer is greater than the midpoint value, run through the right side of the binary array
                 if (sortedArray[midpoint] < searchKey)
                 {
-                    min = midpoint + 1;
+                    arrayMin = midpoint + 1;
                 }
                 //if the integer is less than the midpoint value, run through the left side of the binary array
                 else if (sortedArray[midpoint] > searchKey)
                 {
-                    max = midpoint - 1;
+                    arrayMax = midpoint - 1;
                 }
                 //or if the integer matches the midpoint, return the index
                 else

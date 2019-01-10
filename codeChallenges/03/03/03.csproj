@@ -6,8 +6,4 @@
     <RootNamespace>_03</RootNamespace>
   </PropertyGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\03xUnit\03xUnit.csproj" />
-  </ItemGroup>
-
 </Project>
