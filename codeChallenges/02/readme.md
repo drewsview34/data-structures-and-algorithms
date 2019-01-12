@@ -2,7 +2,7 @@
 
 Insert and shift middle index of array
 
-Actual Time to complete: 2 Hours White Board / 3 Hours Coding
+Actual Time to complete: 2 Hours White Board / 10 Hours Coding
 
 - White board partner: Ray Johnson
 - Collaborator: Dez Teague
