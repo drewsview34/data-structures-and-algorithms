@@ -7,12 +7,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "linkedList05", "linkedList0
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "linkedList05xUnit", "linkedList05xUnit\linkedList05xUnit.csproj", "{940EB85E-A58E-4C64-B44A-C7AEE2A15729}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "classes", "classes", "{FAC63DA1-D9D3-4165-B477-BAC3ECA591C3}"
-	ProjectSection(SolutionItems) = preProject
-		linkedList.cs = linkedList.cs
-		node.cs = node.cs
-	EndProjectSection
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
