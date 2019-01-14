@@ -2,11 +2,13 @@
 
 Developer: Andrew Hinojosa
 
+- Collaborator: N/A
+
+Contributor: Mike Goseco
+
 Implement a Singly Linked List Data Structure
 
 Actual Time to complete: 2 Hours White Board / 5 Hours Coding
-
-- Collaborator: ???
 
 ### Challenge
 For Code Challenge 05, create a Singly Linked List by creating a class. Create three methods; insert, includes, and print.
