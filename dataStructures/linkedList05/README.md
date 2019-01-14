@@ -19,4 +19,4 @@ The approach taken was to reference the linked list and create the required meth
 ### API
 - The insert method takes any value as an argument and adds a new node with that value to the head of the list with an O(1) time performance.
 - The includeds method take any value as an argument and returns a boolean result depending on whether that value exists as a Node's vlaue somewhere within the list.
-- The print method takes in no arguments and outputs all of the current Node values in the Linked List.
+- The print method takes in no arguments and outputs all sof the current Node values in the Linked List.

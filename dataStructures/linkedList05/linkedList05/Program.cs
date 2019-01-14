@@ -1,19 +1,20 @@
-﻿using System;
-using linkedList.classes;
+﻿using linkedList;
+using System;
 
-    namespace linkedList
+namespace LinkedLists
+{
+    public class Program
     {
-        public class linkedList
-        {
             static void Main(string[] args)
             {
-                linkedList newList = new linkedList();
+            LinkedList newList = new LinkedList();
 
-                try
-                {
+            try
+            {
                     int[] numbers = { 34, 5, 9999, 333, 411 };
                     foreach (int number in numbers)
                     {
+
                         newList.Insert(number);
                         Console.WriteLine($"{number} added to linked list.");
                     }
@@ -36,5 +37,5 @@ using linkedList.classes;
                     Console.WriteLine("End of test.");
                 }
             }
-        }
     }
+}
