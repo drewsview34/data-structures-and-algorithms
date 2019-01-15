@@ -1,7 +1,6 @@
 ﻿using node;
 using System;
-using System.Collections.Generic;
-using System.Text;
+using linkedLists;
 
 namespace linkedList
 {
@@ -13,13 +12,15 @@ namespace linkedList
         /// Creates A new Node Instance
         /// </summary>
         /// <param name="value"></param>
+        /// 
         public void Insert(int value)
         {
             try
             {
-                Node node = new Node(value);
+                Node node1 = new Node(value);
+                Node node = node1;
                 node.Next = Head;
-                Head = node;
+                Head = node1;
             }
             catch (Exception e)
             {
