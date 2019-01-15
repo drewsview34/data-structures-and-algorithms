@@ -1,7 +1,8 @@
 ﻿using linkedList;
 using System;
+using node;
 
-namespace LinkedLists
+namespace linkedLists
 {
     public class Program
     {
