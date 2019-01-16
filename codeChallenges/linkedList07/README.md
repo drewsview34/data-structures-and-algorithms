@@ -14,6 +14,8 @@ For Code Challenge 0, write method for the linked list class which takes a numnb
 
 ### Approach & Efficiency
 The approach taken was use the methods created from prevoius challenges. Then create a new method to instantiate an linked list and fill it with nodes. Then traverse the linked list with a loop and then return the node's value.
+Big O Time = O(n) - The method must first traverse the entire list to measure the length, then loop again through it a fixed number of times for the length - k - 1, in order to find the correct node.
+Big O Space = O(1) - Aside from the list, the method needs only one new variable to measure the length of the list.
 
 ### Solution
-![White Board 07]()
+![White Board 07](https://github.com/drewsview34/data-structures-and-algorithms/blob/master/codeChallenges/linkedList07/whiteBoard07.jpg)
