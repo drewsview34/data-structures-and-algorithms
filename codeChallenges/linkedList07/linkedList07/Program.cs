@@ -56,8 +56,6 @@ namespace linkedList07
                 theList.Current = theList.Current.Next;
             }
             return theList.Current.Value;
-            Console.ReadLine();
-            Console.ReadLine();
         }
     }
 }
