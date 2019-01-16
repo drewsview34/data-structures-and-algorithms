@@ -1,7 +1,4 @@
-﻿using System;
-using linkedList;
-
-namespace node
+﻿namespace node
 {
     public class Node
     {
