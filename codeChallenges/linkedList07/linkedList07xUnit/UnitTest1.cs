@@ -8,11 +8,11 @@ namespace linkedList07xUnit
     public class UnitTest1
     {
         [Fact]
-        public void KFoundAtSixthFromEnd()
+        public void KFoundAtSecondFromEnd()
         {
-            int kValue = Program.FindKthFromEnd(6);
+            int kValue = Program.FindKthFromEnd(2);
 
-            Assert.True(kValue == 3);
+            Assert.True(kValue == 7);
         }
 
         [Fact]

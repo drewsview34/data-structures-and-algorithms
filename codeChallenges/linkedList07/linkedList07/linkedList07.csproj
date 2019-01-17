@@ -6,6 +6,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Reference Include="linkedList06">
       <HintPath>..\..\..\dataStructures\linkedList06\linkedList06\bin\Debug\netcoreapp2.2\linkedList06.dll</HintPath>
     </Reference>
