@@ -2,7 +2,7 @@
 
 Developer: Andrew Hinojosa
 
-- White board partner: Mike Goseco
+- White board partner: Mike Goseco 
 - Collaborator: Mike Goseco
 - Contributor: Mike Goseco
 
