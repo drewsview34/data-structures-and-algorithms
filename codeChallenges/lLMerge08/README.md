@@ -18,4 +18,4 @@ For Code Challenge 08,  write a Method called mergeLists which takes two linked 
 * Big O Time = O(n) - The method must first traverse the entire list to measure the length. Then merge the list to return a zipped list.
 
 ### Solution
-![White Board 08](https://github.com/drewsview34/data-structures-and-algorithms/blob/master/assets/codeChallengeThree.jpg)
+![White Board 08](https://github.com/drewsview34/data-structures-and-algorithms/blob/master/codeChallenges/lLMerge08/whiteBoard08.jpg)
