@@ -57,14 +57,14 @@ namespace LLMerge08XUnit
             testListOne.Current = testListOne.Head;
             testListTwo.Current = testListTwo.Head;
 
-            testListOne = Program.MergeLists(testListOne, testListTwo);
+            testListTwo = Program.MergeLists(testListOne, testListTwo);
 
             string result = "";
 
             testListOne.Current = testListOne.Head;
             testListTwo.Current = testListTwo.Head;
 
-            while (testListOne.Current.Next != null)
+            while (testListTwo.Current.Next != null)
             {
                 result += $"{testListOne.Current.Value}, ";
                 testListOne.Current = testListOne.Current.Next;
