@@ -3,21 +3,23 @@
 Developer: Andrew Hinojosa
 
 - White board partner: Ahmad Ali
-- Contributor: ???
-- Collaborator: ???
+- Contributor: Mike Goseco
+- Collaborator: N/A
 
 Actual Time to complete: 1 Hours White Board / 4 Hours Coding
 
 ### Implement A Queue Using Two Stacks
-This challenge utilizes knowledge gain from studying Stacks and Queues.
+This app uses the Stacks and Queues library to instantiate a "Pseudo Queue" that uses Stack methods to function as a Queue data structure.
 
 ### Challenge
-For Code Challenge 11, Create a brand new PseudoQueue class. The class will implement the standard queue interface, but will internally only utilize 2 Stack objects.
+Create a brand new PseudoQueue class. Do not use an existing Queue. Instead, this PseudoQueue class will implement the standard queue interface, but will internally only utilize 2 Stack objects. Ensure that you create your class with the following methods:
+- enqueue(value) which inserts value into the PseudoQueue, using a first-in, first-out approach.
+- dequeue() which extracts a value from the PseudoQueue, using a first-in, first-out approach.
+The Stack instances have only push, pop, and peek methods. You should use your own Stack implementation. Instantiate these Stack objects in your PseudoQueue constructor.
 
 ### Approach & Efficiency
-The approach is to create queue methods and stack methods. Push the nodes through the input of the first stack, then to the second stack until it is outputed.
-For space, it would be O(1) no matter how much we utlize the pop and pop it will always take the same amount of time to complete.
+- Enqueue() - Big O Time = O(1), Space = O(1): This approach uses just a simple push() call to imitate an Enqueue(), thus no node traversal is need and Big O time and space is O(1).
+- Dequeue() - Big O Time = O(n), Space = O(n): For Dequeue(), temporary stacks are used to move, flip, and reassign the stack minus the dequeued node, using while loops and pop() to transfer nodes to each stack, then using a temp integer to store and return the dequeued node's value.
 
 ### Solution
 ![White Board](https://github.com/drewsview34/data-structures-and-algorithms/blob/master/codeChallenges/QueueWithStacks11/Assests/queuewithstacks.jpg)
-![Visual Output ](???)
