@@ -4,16 +4,28 @@ Developer: Andrew Hinojosa
 
 Actual Time to complete: 4 Hours
 
-- Contributor: ???
+- Contributor: Mike Goseco
 
 ### Stacks And Queues
-A queue is a container of objects (a linear collection) that are inserted and removed according to the first-in first-out (FIFO) principle. ... The difference between stacks and queues is in removing. In a stack we remove the item the most recently added; in a queue, we remove the item the least recently added.
+An app designed to instantiate nodes within stack and queue data structures.
 
 ### Challenge
-For Stacks And Queues, create three classes; Node, Stack, and Queue. Each class will create methods that reflect common terminology and utlize those methods to display how stacks and queues operate.
+- Create a Node class that has properties for the value stored in the Node, and a pointer to the next node.
+- Create a Stack class that has a top property. It creates an empty Stack when instantiated.
+- This object should be aware of a default empty value assigned to top when the stack is created.
+- Define a method called push which takes any value as an argument and adds a new node with that value to the top of the stack with an O(1) Time performance.
+- Define a method called pop that does not take any argument, removes the node from the top of the stack, and returns the node's value.
+- Define a method called peek that does not take an argument and returns the value of the node located on the top of the stack.
+- Create a Queue class that has a top property. It creates an empty queue when instantiated.
+- This object should be aware of a default empty value assigned to front when the queue is created.
+- Define a method called enqueue which takes any value as an argument and adds a new node with that value to the back of the queue with an O(1) Time performance.
+- Define a method called dequeue that does not take any argument, removes the node from the front of the queue, and returns the node's value.
+- Define a method called peek that does not take an argument and returns the value of the node located in the front of the stack.
 
 ### Approach & Efficiency
-The approach taken was to create an array. Then, find the middle of the array and use a for loop to run through the array in the direction towards the search key. Once found, return the index position. If not found, return -1.
+- Access/Search: Big O Time = O(n), - Big O Space = O(n)
+- Insert/Delete: Big O Time = O(1), - Big O Space = O(n)
+- New stacks, queues, and nodes are added and values are assigned in one method call at O(1) time to stack or queue of O(n) space. Stacks and queues are searched and displayed at O(n) time accross O(n) space of the data structure.
 
 ### Solution
 ![Stacks And Queues](???)
