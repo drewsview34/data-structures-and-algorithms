@@ -27,5 +27,10 @@ An app designed to instantiate nodes within stack and queue data structures.
 - Insert/Delete: Big O Time = O(1), - Big O Space = O(n)
 - New stacks, queues, and nodes are added and values are assigned in one method call at O(1) time to stack or queue of O(n) space. Stacks and queues are searched and displayed at O(n) time accross O(n) space of the data structure.
 
-### Solution
-![Stacks And Queues](???)
+### API
+- Stack.Push(int value) - Creates a new node and puts it at the top of the stack.
+- Stack.Pop() - Creates a temp node, sets Top to the next node in the stack, clears the reference of Next on temp, and returns the temp node's Value.
+- Stack.Peek() - Shows the value of the top node on the stack.
+- Queue.Enqueue(int value) - Creates a new node and sets it at the end of the queue.
+- Queue.Dequeue() - Removes the node at the front of the queue and returns its value.
+- Queue.Peek() - Returns the node value at the front of the queue.
