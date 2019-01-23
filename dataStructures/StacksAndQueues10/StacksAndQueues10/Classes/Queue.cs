@@ -6,27 +6,21 @@ namespace StacksAndQueues10.Classes
 {
     public class Queue
     {
-        /// <summary>
-        /// Sets Front Node
-        /// </summary>
         public Node Front { get; set; }
-        /// <summary>
-        /// Sets Rear Node
-        /// </summary>
         public Node Rear { get; set; }
         /// <summary>
-        /// Sets Front & Rear Nodes To Queue
+        /// Creates A Queue With One Node
         /// </summary>
-        /// <param name="node">Takes In The Node</param>
+        /// <param name="node">Node's Object</param>
         public Queue(Node node)
         {
             Front = node;
             Rear = node;
         }
         /// <summary>
-        /// Enqueue Adds Node To The End & Sets Rear To The New Node
+        /// Creates A New Node & Sets It At The End Of The Queue
         /// </summary>
-        /// <param name="value"></param>
+        /// <param name="value">value for new node</param>
         public void Enqueue(int value)
         {
             Node node = new Node(value);
@@ -34,24 +28,30 @@ namespace StacksAndQueues10.Classes
             Rear = node;
         }
         /// <summary>
-        /// Dequeue removes node from front of queue
+        /// Removes The Node At The Front Of The Queue & Returns Its Value
         /// </summary>
-        /// <returns>a temp node</returns>
-        public Node Dequeue()
+        /// <returns>Removed Front Node's Value</returns>
+        public int Dequeue()
         {
             Node temp = Front;
             Front = Front.Next;
             temp.Next = null;
-                       
-            return temp;
+            return temp.Value;
         }
         /// <summary>
-        /// Peeks Is The Front Node
+        /// Removes The Node At The Front Of The Queue & Returns Its Value
         /// </summary>
-        /// <returns></returns>
-        public Node Peek()
+        /// <returns>The Front Node's Value</returns>
+        public int Peek()
         {
-            return Front;
+            try
+            {
+                return Front.Value;
+            }
+            catch (Exception except)
+            {
+                throw new Exception(except.Message);
+            }
         }
     }
 }
