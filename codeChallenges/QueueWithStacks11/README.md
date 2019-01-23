@@ -19,5 +19,5 @@ The approach is to create queue methods and stack methods. Push the nodes throug
 For space, it would be O(1) no matter how much we utlize the pop and pop it will always take the same amount of time to complete.
 
 ### Solution
-![White Board ](???)
+![White Board](https://github.com/drewsview34/data-structures-and-algorithms/blob/master/codeChallenges/QueueWithStacks11/Assests/queuewithstacks.jpg)
 ![Visual Output ](???)
