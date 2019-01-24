@@ -16,4 +16,10 @@
     <ProjectReference Include="..\QueueWithStacks11\QueueWithStacks11.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Reference Include="StacksAndQueues10">
+      <HintPath>..\..\..\dataStructures\StacksAndQueues10\StacksAndQueues10\bin\Debug\netcoreapp2.2\StacksAndQueues10.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>
