@@ -1,55 +1,61 @@
 ﻿using StacksAndQueues10.Classes;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace QueueWithStacks11.Classes
 {
     public class PseudoQueue
     {
         public Stack PseudoQ { get; set; }
-        // Pseudo Queue cCnstructor Creates A New Stack Instance In PseudoQueue
+
+        // Pseudo queue constructor creates new Stack instance in PseudoQueue
         public PseudoQueue()
         {
             PseudoQ = new Stack();
         }
-        // Stack Push() Method Works The Same As Enqueue() By Simply Adding A New Node To The Rear Which Is Equal To Top
+
+        // Stack push() method works the same as Enqueue() by simply adding a new node to the rear which is equal to top
         public void Enqueue(int value)
         {
             PseudoQ.Push(value);
         }
-        // Simulates Dequeue() By Popping All But The Last Node And Pushing Into A Temp Stack, Pushing It All Again To A New Stack, Then Reassigning It Back To The PseudoQueue Stack.
+
+        // Simulates Dequeue() by popping all but the last node and pushing into a temp stack, pushing it all again to a new stack, then reassigning it back to the PseudoQueue stack.
         public int Dequeue()
         {
-            // Temp Stacks For Flipping and Popping
+            // Temp stacks for flipping and popping
             Stack StackOne = new Stack();
             Stack StackTwo = new Stack();
             int temp;
-            // If PsuedoQ Only Has One Node, Pop It And Return Its Value.
+
+            // If PQueue only has one node, pop it and return its value.
             if (PseudoQ.Top.Next == null)
             {
                 temp = PseudoQ.Pop();
                 return temp;
             }
-            // Moves All But The Dequeued Node To Temp StackOne
+
+            // Moves all but the dequeued node to temp stack1
             while (PseudoQ.Top.Next != null)
             {
                 StackOne.Push(PseudoQ.Pop());
             }
-            // Stores The Value Of The Dequeued Node
+
+            // Stores the value of the dequeued node
             temp = PseudoQ.Top.Value;
-            // Moves All The Nodes From StackOne To stackTwo In Original Order
+
+            // Moves all the nodes from stack1 to stack2 in original order
             while (StackOne.Top.Next != null)
             {
                 StackTwo.Push(StackOne.Pop());
+
             }
             if (StackOne.Top.Next == null)
             {
                 StackTwo.Push(StackOne.Pop());
             }
-            // Assigns The New Stack Minus The Dequeued Node Back To PsuedoQ
+
+            // Assigns the new stack minus the dequeued node back to PQueue
             PseudoQ = StackTwo;
-            // Returns Dequeued Node's Value
+            // Returns dequeued node's value
             return temp;
         }
     }
