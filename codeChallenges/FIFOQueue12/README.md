@@ -24,5 +24,4 @@ The approach is to create an enqueue and dequeue method. Use the Enqueue method 
 
 
 ### Solution
-![White Board ](???)
-![Visual Output ](???)
+![White Board ](https://github.com/drewsview34/data-structures-and-algorithms/blob/master/codeChallenges/FIFOQueue12/Assets/FIFOQueue12.jpg)
