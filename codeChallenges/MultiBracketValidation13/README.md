@@ -18,8 +18,9 @@ For Code Challenge 13, Create a method that should take a string as its only arg
 - Curly Brackets : {}
 
 ### Approach & Efficiency
-The approach is to create a method and enter differnt bracket types as string and then make sure they are balanced.
-The Big O for time and space is O(1) because it will only to check validation will only happen one time.
+Big O Time = O(n)
+Big O Space = O(n)
+- The method creates both an array and a stack which must be iterated over based on the size of input string and the number of brackets respecively. Thus, Big O time and space are both O(n).
 
 ### Solution
 ![White Board 13](???)
