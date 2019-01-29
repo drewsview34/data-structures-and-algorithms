@@ -2,7 +2,7 @@
 
 Developer: Andrew Hinojosa
 
-- Contributor: Mike Goseco
+- Contributor: Mike Goseco/ Jason Few
 
 Actual Time to complete: 2 Hours Coding
 
