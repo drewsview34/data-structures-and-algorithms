@@ -4,7 +4,7 @@ Developer: Andrew Hinojosa
 
 - Contributor: Mike Goseco
 
-Actual Time to complete: ??? Hours Coding
+Actual Time to complete: 2 Hours Coding
 
 ### Implement A Queue Using Two Stacks
 TThis app contains the data structure for building and traversing a binary tree in Pre-Order, In-Order, and Post-Order, as well as building binary search trees, inserting new nodes in order, and testing to determine if a node value exists in the binary search tree.
