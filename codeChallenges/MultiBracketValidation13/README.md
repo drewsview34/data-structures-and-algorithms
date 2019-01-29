@@ -3,8 +3,7 @@
 Developer: Andrew Hinojosa
 
 - White board partner: Ahmad Ali
-- Contributor: ???
-- Collaborator: ???
+- Contributor: Jason Few
 
 Actual Time to complete: 1 Hours White Board / 4 Hours Coding
 
