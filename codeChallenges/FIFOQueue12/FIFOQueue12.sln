@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.271
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FIFOQueue12", "FIFOQueue12\FIFOQueue12.csproj", "{6A70B4E8-FE8E-42A6-A286-751552823A31}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FIFOQueue12", "FIFOQueue12\FIFOQueue12.csproj", "{6A70B4E8-FE8E-42A6-A286-751552823A31}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XUnitTestProject1", "XUnitTestProject1\XUnitTestProject1.csproj", "{9C1DEBE1-0D71-4F44-ACD5-5E95AE4E43F2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FIFOQueue12XUnitTestProject2", "FIFOQueue12XUnitTestProject2\FIFOQueue12XUnitTestProject2.csproj", "{88E367D7-A59A-4548-B784-8FC877CCC1C6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{6A70B4E8-FE8E-42A6-A286-751552823A31}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6A70B4E8-FE8E-42A6-A286-751552823A31}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6A70B4E8-FE8E-42A6-A286-751552823A31}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9C1DEBE1-0D71-4F44-ACD5-5E95AE4E43F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9C1DEBE1-0D71-4F44-ACD5-5E95AE4E43F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9C1DEBE1-0D71-4F44-ACD5-5E95AE4E43F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9C1DEBE1-0D71-4F44-ACD5-5E95AE4E43F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88E367D7-A59A-4548-B784-8FC877CCC1C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88E367D7-A59A-4548-B784-8FC877CCC1C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88E367D7-A59A-4548-B784-8FC877CCC1C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88E367D7-A59A-4548-B784-8FC877CCC1C6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
