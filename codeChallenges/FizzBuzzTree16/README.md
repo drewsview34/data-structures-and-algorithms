@@ -26,4 +26,4 @@ Big O Space = O(H)
 - The method traverses a given binary tree recursively, comparing each node value to the FizzBuzz conditions then storing that value to a List before moving to the next node. After traversal is finished the List is converted to an array before being returned.
 
 ## Solution
-![whiteboard](???)
+![whiteboard]https://github.com/drewsview34/data-structures-and-algorithms/blob/master/codeChallenges/FizzBuzzTree16/Assets/WhiteBoard.jpg)
