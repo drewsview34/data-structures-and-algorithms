@@ -5,7 +5,7 @@ Developer: Andrew Hinojosa
 - White board partner: Jason Hiskey
 - Contributor: Mike Goseco
 
-Actual Time to complete: 1 Hours White Board / ??? Hours Coding
+Actual Time to complete: 1 Hours White Board / 2 Hours Coding
 
 # FizzBuzz Tree
 This app contains a method which takes in a binary tree and changes any nodes divisible by 3 to "Fizz", nodes divisible by 5 to "Buzz", and nodes divisible by 15 to "FizzBuzz".
