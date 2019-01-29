@@ -5,7 +5,8 @@ Developer: Andrew Hinojosa
 - White board partner: Ahmad Ali
 - Contributor: Jason Few
 
-Actual Time to complete: 1 Hours White Board / 3 Hours Coding Time
+
+Actual Time to complete: 1 Hours White Board / 3 Hours Coding
 
 ### Implement A Queue Using Two Stacks
 This challenge focuses on the First In First Out (FIFO) concept of Queues.
