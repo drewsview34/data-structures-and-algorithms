@@ -2,8 +2,8 @@
 
 Developer: Andrew Hinojosa
 
-- White board partner: Jason Hiskey & Ryna Truong
-- Contributor: Jason Hiskey & Ryna Truon & Mike Goseco
+- White board partner: Jason Hiskey && Ryna Truong
+- Contributor: Jason Hiskey && Ryna Truong && Mike Goseco
 
 Actual Time to complete: 1 Hours White Board / ??? Hours Coding
 
