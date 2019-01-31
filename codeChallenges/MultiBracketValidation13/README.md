@@ -3,8 +3,7 @@
 Developer: Andrew Hinojosa
 
 - White board partner: Ahmad Ali
-- Contributor: ???
-- Collaborator: ???
+- Contributor: Jason Few
 
 Actual Time to complete: 1 Hours White Board / 4 Hours Coding
 
@@ -23,4 +22,4 @@ Big O Space = O(n)
 - The method creates both an array and a stack which must be iterated over based on the size of input string and the number of brackets respecively. Thus, Big O time and space are both O(n).
 
 ### Solution
-![White Board 13](???)
+![White Board 13](https://github.com/drewsview34/data-structures-and-algorithms/blob/master/codeChallenges/MultiBracketValidation13/multibracket.jpg)
