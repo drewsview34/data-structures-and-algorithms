@@ -17,4 +17,4 @@ Big O Time = O(n)
 Big O Space = O(n)
 
 ## Solution
-![whiteboard](???)
+![whiteboard](https://github.com/drewsview34/data-structures-and-algorithms/blob/master/codeChallenges/RepeatedWord26/RepeatedWord.JPG)
