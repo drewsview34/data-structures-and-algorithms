@@ -19,4 +19,4 @@ Big O Time = O(n)
 Big O Space = O(n)
 
 ## Solution
-![whiteboard](https://github.com/drewsview34/data-structures-and-algorithms/blob/master/codeChallenges/LeftJoin28/Assets/LeftJoin28.JPG)
+![whiteboard](https://github.com/drewsview34/data-structures-and-algorithms/blob/master/codeChallenges/BreadthFirstGraph31/Assets/BreadthFirstGraph.JPG)
