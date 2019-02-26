@@ -2,6 +2,9 @@
 
 Developer: Andrew Hinojosa
 
+Collaborator: Luther Mckeiver && Ray Johsnon && Dez Teague && Ryna Truong
+
+
 Actual Time to complete: ??? Hours Coding
 
 
