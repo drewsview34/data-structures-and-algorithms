@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphArray32", "GraphArray32\GraphArray32.csproj", "{FD06A063-8823-417E-96DF-4BB03D5B81FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphArray32XUnitTestProject1", "GraphArray32XUnitTestProject1\GraphArray32XUnitTestProject1.csproj", "{5D5DF8E9-55B1-41E6-9857-AF851B46562D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FD06A063-8823-417E-96DF-4BB03D5B81FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD06A063-8823-417E-96DF-4BB03D5B81FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD06A063-8823-417E-96DF-4BB03D5B81FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD06A063-8823-417E-96DF-4BB03D5B81FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D5DF8E9-55B1-41E6-9857-AF851B46562D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D5DF8E9-55B1-41E6-9857-AF851B46562D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D5DF8E9-55B1-41E6-9857-AF851B46562D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D5DF8E9-55B1-41E6-9857-AF851B46562D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {031E5D9D-24EC-4FA3-A80A-DC0D349167AC}
+	EndGlobalSection
+EndGlobal
