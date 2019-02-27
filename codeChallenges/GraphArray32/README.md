@@ -19,4 +19,4 @@ Big O Time = O(n)
 Big O Space = O(n)
 
 ## Solution
-![whiteboard]()
+![whiteboard](https://github.com/drewsview34/data-structures-and-algorithms/blob/master/codeChallenges/GraphArray32/Assets/GraphArray32.JPG)
